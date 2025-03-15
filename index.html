@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lidor Pahima | Portfolio</title>
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon"/>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Handlee:wght@400;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+  <div id="particles-js"></div>
+  
+  <header id="header">
+    <nav class="navbar">
+      <div class="logo">
+        <a href="#home">
+          <img src="assets/logo.png" alt="Lidor Pahima">
+        </a>
+      </div>
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="#home" class="nav-link" data-section="home">Home</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link" data-section="about">About</a></li>
+        <li class="nav-item"><a href="#portfolio" class="nav-link" data-section="portfolio">Portfolio</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="section">
+      <div class="section-content">
+        
+        <h1>Hello <span class="wave">👋</span>, My name is <span class="highlight">Lidor Pahima</span></h1>
+        <h2>I'm a <span class="typing"></span></h2>
+        <p>Currently completing my Computer Science degree, I focus on building responsive web interfaces and learning server-side technologies. I'm dedicated to writing well-structured code and constantly expanding my development toolkit.</p>
+        <button class="downloadCv">Download CV</button>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-content">
+        <h1>About <span class="highlight">Me</span></h1>
+        <div class="about-container">
+          <div class="about-text">
+            <p>As a Computer Science student, I'm passionate about technology and continuous learning. I'm building a strong foundation in web development fundamentals while exploring new programming concepts. My goal is to create clean, efficient solutions and grow into a versatile developer.</p>
+          </div>
+          <div class="about-image">
+            <img class="profile-img" src="assets/Cartoon.jpg" alt="Lidor Pahima" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="portfolio" class="section">
+      <div class="section-content">
+        <h1>Portfolio</h1>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+    
+            <!-- Slide 1: UPSKILL  -->
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="assets/magicstudio-art.jpg" alt="UPSKILL">
+                <h3>UPSKILL</h3>
+                <p>An AI-powered learning platform (FastAPI, Docker, microservices). Features real-time chat, secure auth (OAuth2 + JWT).</p>
+                <div class="links">
+                  <a href="https://github.com/Lidorpahima/OpenSkill" class="code" target="_blank">CODE</a> |
+                  <a href="https://github.com/Lidorpahima/OpenSkill" class="demo" target="_blank"></a>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 2: CarScanner -->
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="assets/magicstudio-art (3).jpg" alt="CarScanner">
+                <h3>CarScanner</h3>
+                <p>A Python-based tool for comprehensive vehicle data, with license plate lookup, ownership history, mileage, and WhatsApp integration.</p>
+                <div class="links">
+                  <a href="https://github.com/Lidorpahima/CarScanner" class="code" target="_blank">CODE</a> |
+                  <a href="https://github.com/Lidorpahima/CarScanner" class="demo" target="_blank"></a>
+                </div>
+              </div>
+            </div>
+            <!-- Slide 3: Mini-Interpreter -->
+            <div class="swiper-slide">
+              <div class="card">
+                <img src="assets/magicstudio-art (2).jpg" alt="Mini-Interpreter">
+                <h3>Mini-Interpreter</h3>
+                <p>A custom Python-based language interpreter with lexical analysis, AST parsing, and runtime for arithmetic, conditions, and loops.</p>
+                <div class="links">
+                  <a href="https://github.com/Lidorpahima/Mini-Interpret-Programming-Language" class="code" target="_blank">CODE</a> |
+                  <a href="https://github.com/Lidorpahima/Mini-Interpret-Programming-Language" class="demo" target="_blank"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </section>    
+    <section id="contact" class="section">
+      <div class="section-content">
+        <div class="contact-form">
+          <h1>Contact <span class="mail">📬</span></h1>
+          <p>Send me a message</p>
+          <form class="contact-form" action="assets/https://formsubmit.co/lidorpahima28@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="New message from website">
+            <input type="hidden" name="_captcha" value="true">
+            <input type="text" name="name" placeholder="Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <textarea name="message" rows="5" placeholder="Your message" required></textarea>
+            <button type="submit">Send message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="social-icons">
+    <a href="https://github.com/Lidorpahima" target="_blank" class="social-icon">
+      <i class="fab fa-github"></i>
+    </a>
+    <a href="https://linkedin.com/in/lidor-pahima" target="_blank" class="social-icon">
+      <i class="fab fa-linkedin-in"></i>
+    </a>
+    <a href="mailto:lidorpahima28@gmail.com" class="social-icon">
+      <i class="fas fa-envelope"></i>
+    </a>
+    <a href="https://x.com/LydwrPhymh85029" target="_blank" class="social-icon">
+      <i class="fa-brands fa-x-twitter"></i> 
+    </a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
